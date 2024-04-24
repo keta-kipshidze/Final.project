@@ -37,9 +37,6 @@ body {
     border-color: transparent;
     background-image: linear-gradient(to bottom right, rgba(123, 218, 154, 0.8), rgba(54, 157, 204, 0.8));
     position:absolute;
-    top: 68%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     text-align:justify;
 }
 
