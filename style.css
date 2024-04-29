@@ -23,7 +23,7 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom right, rgb(236, 217, 162), rgb(54, 194, 204));
+    background-color: rgba(243, 229, 215, 1);
     background-attachment: fixed;
     display:flex;
     justify-content: center;
@@ -42,21 +42,22 @@ body {
     flex-direction:column;
     justify-content: center;
     align-items: baseline;
-    width: 320px;
+    width: fill (375px);
     padding: 12px;
     font-size: 12px;
     border: 2px solid; 
     border-radius: 10px;
     border-color: transparent;
-    background-color: antiquewhite;
-    position:absolute;
+    background-color: rgba(255, 255, 255, 1);
     text-align:justify;
 }
 
 .container1 img {
-    width: 294px;
-    height: 190px;
-    border-radius: 10px;  
+  width: 375px;
+  height: 171px;
+  gap: 0px;
+  opacity: 0px;
+
 }
 
 .text-container1 {
@@ -101,14 +102,14 @@ hr {
 
 @media (min-width: 768px) {
   .container1 {
-    width: 500px;
+    width: 736px;
     font-size: 17px;
     padding: 20px;
     margin: 20px;
   }
   .container1 img {
-    width: 456px;
-    height: 296px;
+    width: 656px;
+    height: 300px;
   }
 }
 
