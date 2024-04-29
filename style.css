@@ -10,17 +10,6 @@
     box-sizing: border-box;
 }
 
-.barlow-thin {
-  font-family: "Barlow", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 .forum-regular {
   font-family: "Forum", serif;
@@ -66,7 +55,7 @@ body {
 
 .container1 img {
     width: 294px;
-    height: 196px;
+    height: 190px;
     border-radius: 10px;  
 }
 
@@ -96,6 +85,7 @@ body {
   .Instructions {
     list-style-position:inside;
     list-style-type:decimal;
+    
   }
 
 
@@ -114,10 +104,11 @@ hr {
     width: 500px;
     font-size: 17px;
     padding: 20px;
+    margin: 20px;
   }
   .container1 img {
     width: 456px;
-    height: 304px;
+    height: 296px;
   }
 }
 
@@ -152,6 +143,26 @@ hr {
 }
 
 p {
-  padding: 0 0 4px 0;
+  padding: 0 0 6px 0;
   }
   
+  table {
+    table-layout: fixed;
+    width: 100%;
+    border: 1px solid rgb(31, 4, 4);
+    border-collapse: collapse;
+    border-bottom: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+  }
+
+ .table-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+ }
+
+ h2 {
+  color: rgb(23, 110, 84);
+ }
