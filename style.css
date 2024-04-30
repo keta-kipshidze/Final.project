@@ -50,15 +50,18 @@ body {
     border: 2px solid; 
     border-color: transparent;
     background-color: rgba(255, 255, 255, 1);
-    text-align:justify;
+    text-align: justify;
 }
 
 .container1 img {
-  width: 375px;
-  height: 171px;
-  border:none;
-  padding-inline-start: ;
+  width: 333px;
+  height: 160px;
+  border-radius: 10px;
 
+}
+
+.text-container1 {
+  width: 280px;
 }
 
 .description {
@@ -157,6 +160,9 @@ hr {
     height: 300px;
     border-radius: 12px;
   }
+  .text-container1 {
+    width: 656px;
+  }
 }
 
 .preparation-details {
@@ -204,8 +210,10 @@ p {
   font-weight: 400;
   font-style: normal;
   color: #312E2C;
-  size: 40px;
+  
 }
+
+
 
 h2 {
 color:  #854632;
